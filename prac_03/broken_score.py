@@ -18,7 +18,7 @@ def calculate_grade(grade):
         result = "Excellent"
     elif grade >= 50:
         result = "Pass"
-    elif grade < 50:
+    else:
         result = "Bad"
     return result
 

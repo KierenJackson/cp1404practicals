@@ -25,4 +25,5 @@ def income_printing(amount_of_months, incomes):
         print("Month {:2} - Income: ${:10.2f} Total: ${:10.2f}".format(month, income, total))
 
 
+
 main()

@@ -18,6 +18,8 @@ number_file = open(NUMBERS_FILE, 'r')
 
 numbers = number_file.readlines()
 
+print(numbers)
+
 summed = 0
 for i in range(len(numbers)):
     summed = summed + int(numbers[i])
